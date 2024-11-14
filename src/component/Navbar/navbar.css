@@ -1,0 +1,70 @@
+.navbar {
+    padding-top: 0; /* Remove top padding */
+    margin-top: 0;  /* Remove margin if needed */
+}
+
+.container-fluid {
+    padding-top: 0; /* Remove padding from the top of the container */
+    margin-top: 0;  /* Remove margin from the top of the container */
+}
+
+.logo {
+    width: 300px;
+    height: 100px;
+    position: static;
+    margin-top: 0;  /* Removes extra space above the logo */
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 30px; /* Adds space between all nav items */
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+    display: flex;
+    align-items: center; /* Keeps the text and the arrow aligned horizontally */
+    gap: 5px; /* Adjust space between the text and the arrow */
+    opacity: 0.6;
+    margin: 0; /* Removes any extra margin */
+    padding: 0; /* Reduce any extra top padding */
+}
+
+.arrow, .arrowright {
+    height: 15px; /* Reduce arrow size to match smaller text */
+    width: auto; 
+
+}
+
+.button {
+    cursor: pointer;
+    background-color: red;
+    border-radius: 32px;
+    margin-left: 30px;
+    font-size: 10px;
+    margin-right: 50px;
+    color: white;
+    width: 136px;
+    font-weight: 600;
+    height: 30px;
+    margin-top: 0; 
+    border: red;
+}
+hr.navbar-line {
+    border: none;
+    height: 2px;
+    background-color: #000; /* Black color for the line */
+    margin: 0;  /* No margin between the navbar and the line */
+  }

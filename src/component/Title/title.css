@@ -1,0 +1,152 @@
+.Titile{
+    /* text-align: left; */
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
+.text-line-first {
+    width: 445px;
+height: 112px;
+
+font-family: Everett;
+font-family: inherit;
+
+font-size: 75px;
+font-weight: 500;
+
+text-align: right;
+/* text-underline-position: from-font; */
+/* text-decoration-skip-ink: none; */
+color: black;
+opacity: 1;
+line-height: 90px;
+
+
+
+    
+  }
+  .text-line-second{
+    width: 445px;
+height: 112px;
+
+font-family: Everett;
+font-family: inherit;
+
+font-size: 75px;
+font-weight: 500;
+
+text-align: right;
+/* text-underline-position: from-font; */
+/* text-decoration-skip-ink: none; */
+color: black;
+line-height: 90px;
+
+
+
+
+  }
+.text-line-third{
+width: 445px;
+height: 112px;
+font-family: Everett;
+font-size: 75px;
+font-weight: 500;
+
+color: black;
+line-height: 90px;
+font-family: inherit;
+
+
+
+  }
+  .production{
+    color: red;
+  }
+  
+.second-title{
+    /* width: 725px; */
+/* height: 64px; */
+/* top: 538px; */
+/* left: 90px; */
+/* gap: 0px; */
+opacity: 0px;
+font-family: Open Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: -0.04em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding-top: 20px;
+font-family: inherit;
+
+
+}
+.Title-second{
+    margin-left: 80px;
+    font-family: inherit;
+
+}
+.last-section{
+    flex-direction: row;
+}
+.title-button {
+    margin-left: 80px;
+    background-color: red;
+    color: white;
+    border-radius: 34px;
+    border: none;
+    padding: 20px , 32px , ;
+    font-family: Open Sans;
+font-size: 12px;
+font-weight: 600;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 284px;
+height: 40px;
+gap: 0px;
+opacity: 0px;
+text-align: center;
+font-family: inherit;
+   
+    margin-top: 30px;
+
+}
+.Vector{
+    size: 100%;
+    border: 5px;
+    width: 12.95px;
+height: 12.95px;
+top: 20.84px;
+gap: 0px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+margin-left:-35px;
+
+}
+.image-container {
+    position: relative;
+    width: 200px; /* Adjust this width to the size you need */
+    height: 200px; /* Adjust height as per the image size */
+  }
+  
+  .image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Makes the image circular */
+    position: absolute;
+  }
+  
+  .image1 {
+    z-index: 2; /* The bottom image */
+    left: 0;
+  }
+  
+  .image2 {
+    z-index: 1; /* The top image */
+    left: 80px; /* Overlap by half of the image width */
+  }
+  
+  
